@@ -1,0 +1,12 @@
+]633;E;{   echo "Daily Ticket 01 - Terraform Validation"\x3b   echo "Validation date: $(date -u +"%Y-%m-%dT%H:%M:%SZ")"\x3b   echo\x3b   terraform version\x3b   echo\x3b   terraform -chdir="$TICKET_DIR" fmt -check\x3b   echo\x3b   terraform -chdir="$TICKET_DIR" validate\x3b } > "$TICKET_DIR/evidence/terraform-validation.txt" 2>&1;be2731b0-510c-4f05-af6a-0bd87f358474]633;CDaily Ticket 01 - Terraform Validation
+Validation date: 2026-09-23T19:02:11Z
+
+Terraform v1.15.8
+on windows_amd64
+
+Your version of Terraform is out of date! The latest version
+is 1.16.4. You can update by downloading from https://developer.hashicorp.com/terraform/install
+
+
+[32m[1mSuccess![0m The configuration is valid.
+[0m
