@@ -1,0 +1,41 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 556B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.5s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 113B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 28B done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.12-slim@sha256:2f17fc044b579bab302c2e8054d3a686e2cb9a83de48e70534b94cd8ebbe06a9
+#5 resolve docker.io/library/python:3.12-slim@sha256:2f17fc044b579bab302c2e8054d3a686e2cb9a83de48e70534b94cd8ebbe06a9 0.0s done
+#5 DONE 0.0s
+
+#6 [2/4] WORKDIR /app
+#6 CACHED
+
+#7 [3/4] RUN groupadd     --gid 10001     appuser     && useradd     --uid 10001     --gid 10001     --no-create-home     --shell /usr/sbin/nologin     appuser
+#7 CACHED
+
+#8 [4/4] COPY --chown=appuser:appuser app.py /app/app.py
+#8 CACHED
+
+#9 exporting to image
+#9 exporting layers done
+#9 exporting manifest sha256:0d89d15f33771dbf6183868703780f62d5bf3f21abbc14824961e4074136b9c8 done
+#9 exporting config sha256:5874cf1f393fc4ede964466aff16065eb416c2c76d40d8d4b021078361e8e2e9 done
+#9 exporting attestation manifest sha256:fbe211a02bcfbbec503997818cd877b43c00777005233c85aa3363aa2fdcbd98 0.0s done
+#9 exporting manifest list sha256:f609350bc4008bf77d90916f02b70c0df3ac200de02a4ed723499b8da8b4593d
+#9 exporting manifest list sha256:f609350bc4008bf77d90916f02b70c0df3ac200de02a4ed723499b8da8b4593d 0.0s done
+#9 naming to docker.io/library/daily-ticket-health:1.0 done
+#9 unpacking to docker.io/library/daily-ticket-health:1.0 0.0s done
+#9 DONE 0.1s
+Build exit code: 0

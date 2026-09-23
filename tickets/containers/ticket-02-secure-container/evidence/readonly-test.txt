@@ -1,0 +1,2 @@
+touch: cannot touch '/app/should-fail': Read-only file system
+Read-only test exit code: 1

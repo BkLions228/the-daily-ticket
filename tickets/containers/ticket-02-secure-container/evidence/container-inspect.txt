@@ -1,0 +1,5 @@
+Image configuration:
+User=appuser Healthcheck=["CMD","python","-c","import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=2)"]
+
+Container runtime configuration:
+User=appuser ReadOnly=true Health=healthy Tmpfs={"/tmp":"rw,noexec,nosuid,size=16m"}
