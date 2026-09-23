@@ -1,0 +1,8 @@
+.git
+.gitignore
+README.md
+evidence/
+__pycache__/
+*.pyc
+*.pyo
+*.log
