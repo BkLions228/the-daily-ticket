@@ -1,0 +1,15 @@
+PASS: Storage API version = '2025-08-01'
+PASS: Storage account kind = 'StorageV2'
+PASS: Storage redundancy = 'Standard_LRS'
+PASS: Minimum TLS version = 'TLS1_2'
+PASS: HTTPS-only traffic = True
+PASS: Anonymous blob access = False
+PASS: Shared-key authorization = False
+PASS: Default OAuth authentication = True
+PASS: Public network endpoint = 'Enabled'
+PASS: Firewall bypass = 'None'
+PASS: Default network action = 'Deny'
+
+Checks passed: 11
+Checks failed: 0
+Validation exit code: 0
