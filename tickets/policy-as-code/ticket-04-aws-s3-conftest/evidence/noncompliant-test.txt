@@ -1,0 +1,5 @@
+[31mFAIL[0m - tickets/policy-as-code/ticket-04-aws-s3-conftest/testdata/noncompliant-plan.json - main - aws_s3_bucket_public_access_block.portfolio must set block_public_acls to true
+[31mFAIL[0m - tickets/policy-as-code/ticket-04-aws-s3-conftest/testdata/noncompliant-plan.json - main - aws_s3_bucket_server_side_encryption_configuration.portfolio must use AWS KMS encryption; found AES256
+
+[31m2 tests, 0 passed, 0 warnings, 2 failures, 0 exceptions[0m
+Noncompliant test exit code: 1
